@@ -40,11 +40,11 @@ Il progetto si è focalizzato sullo sviluppo dei seguenti punti:
 
 ### 2. Creazione e configurazione del database
 
-1. Accedi a PostgreSQL (tramite interfaccia grafica o linea di comando) e crea un nuovo database vuoto.
-2. Esegui lo script `tabelle_corsi_db.sql` per creare lo schema fisico (le tabelle).
-3. Esegui lo script `creazione_db_trigger.sql` per impostare i trigger sulle tabelle appena create.
+1. Accedi a PostgreSQL e crea un nuovo database.
+2. Esegui lo script `tabelle_corsi_db.sql` per creare lo schema fisico.
+3. Esegui lo script `creazione_db_trigger.sql` per impostare i trigger sulle tabelle.
 
-Esempio di esecuzione da riga di comando:
+Esempio da riga di comando:
 
 ```bash
 psql -U utente -d nome_db -f tabelle_corsi_db.sql
